@@ -1,0 +1,60 @@
+.singleLawyer {
+  display: flex;
+  width: 100%;
+
+  .singleContainer {
+    flex: 6;
+    .top {
+      padding: 20px;
+      display: flex;
+      .rights {
+        margin-left: 3rem;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        width: 600px;
+        .case-details {
+          margin: 14px;
+          padding: 10px;
+          .case-title {
+            font-size: 16px;
+            color: gray;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      gap: 20px;
+      .left {
+        flex: 1;
+
+        padding: 20px;
+        position: relative;
+
+        .editButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 12px;
+          color: #c29d59;
+          background-color: #c29d594f;
+          border-radius: 0px 0px 0 5px;
+        }
+
+        .title {
+          font-size: 16px;
+          color: gray;
+          margin-bottom: 10px;
+        }
+      }
+
+      .desc-1 {
+        margin-bottom: 8px;
+      }
+      .desc-bottom {
+        margin-top: 10px;
+        color: #999;
+        text-decoration: none;
+      }
+    }
+  }
+}
