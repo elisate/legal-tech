@@ -6,7 +6,7 @@ import axios from "axios";
 import CaseSigning from "../../components/CaseSigning";
 import { pdfjs } from "react-pdf";
 import PdfComp from "./PdfComp";
-import { PDFViewer } from "react-view-pdf";
+// import { PDFViewer } from "react-view-pdf";
 
 function Single(id) {
   const { _id } = useParams();
