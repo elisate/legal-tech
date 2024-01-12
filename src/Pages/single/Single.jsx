@@ -70,7 +70,7 @@ function Single(id) {
               className="button-bottom"
               onClick={() => setFullscreen(true)}
             >
-              View Doc
+              View Document
               <MdDownload />
             </button>
           </div>
